@@ -1,0 +1,30 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A Dating App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canoebrook/FriendFinder.git"
+  },
+  "keywords": [
+    "Dating",
+    "Express"
+  ],
+  "author": "Dave Fischer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canoebrook/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/canoebrook/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "require": "^2.4.20"
+  }
+}
